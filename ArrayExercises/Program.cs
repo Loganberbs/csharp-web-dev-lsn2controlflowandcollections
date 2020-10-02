@@ -1,4 +1,6 @@
-﻿using System;
+﻿
+using System;
+
 
 namespace ArrayExercises
 {
@@ -6,7 +8,12 @@ namespace ArrayExercises
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Arrays!");
+           int[] nums = {1, 1, 2, 3, 5, 8};
+            
+            foreach(int in nums) {
+            Console.WriteLine('');
+                    }
+                
         }
     }
 }
